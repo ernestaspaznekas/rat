@@ -6,10 +6,8 @@ import Error            from '../error/Error'
 import fetchFormApi     from '../api/fetch'
 import Loader           from '../loader/Loader'
 import Map              from '../map/Map'
-import Binance          from '../ws/Binance'
 
 import './Main.scss'
-
 
 
 export default class App extends React.Component {
@@ -57,9 +55,6 @@ export default class App extends React.Component {
 
         return (
             <div className="harba-main">
-
-                <Binance />
-
                 { loading && 
                     <Loader 
                         height={360} 

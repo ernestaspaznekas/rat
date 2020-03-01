@@ -6,5 +6,5 @@ import Main         from '../main/Main';
 
 export default () => ReactDOM.render(
     <Main />, 
-    document.getElementById('root')
+    document.getElementById('app')
 )
